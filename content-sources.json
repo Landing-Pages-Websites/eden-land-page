@@ -39,9 +39,9 @@
       "source_url": "https://book.edenlandcompany.com/camp-swift"
     },
     "hubspot_form": {
-      "claim": "HubSpot embed portalId 244220839 / formId d8bee6a8-1b4f-40d7-ad2f-f8a058261993",
-      "source": "Supplied verbatim in task input_data.form_fields. Matches existing English /camp-swift form embed; reuse_form_on_all_pages=true.",
-      "source_url": "https://share-na2.hsforms.com/244220839/d8bee6a8-1b4f-40d7-ad2f-f8a058261993"
+      "claim": "HubSpot embed portalId 244220839 / formId 8473271f-df28-4ab6-ad7b-271d4972e8c5 (Spanish-cloned form; English uses formId d8bee6a8-1b4f-40d7-ad2f-f8a058261993)",
+      "source": "Spanish-cloned form supplied by the AM on the task on 2026-05-25 with the new HubSpot embed snippet (per-portal /forms/embed/244220839.js loader + <div class=\"hs-form-frame\" data-form-id=\"8473271f-...\" data-portal-id=\"244220839\">). Same portal as the English form, same fields, copy in Spanish.",
+      "source_url": "https://share-na2.hsforms.com/244220839/8473271f-df28-4ab6-ad7b-271d4972e8c5"
     },
     "mega_tag_site_key": {
       "claim": "MegaTag siteKey sk_mm9mpdqg_cvto430u2ev",

@@ -181,7 +181,7 @@
         .nav-links {
             display: flex;
             align-items: center;
-            gap: 32px;
+            gap: 24px;
             list-style: none;
             margin: 0;
             padding: 0;
@@ -192,13 +192,14 @@
             font-weight: 500;
             color: var(--text-medium);
             transition: var(--transition);
+            white-space: nowrap;
         }
 
         .nav-links li a:hover {
             color: var(--primary);
         }
 
-        @media (max-width: 1024px) {
+        @media (max-width: 1100px) {
             .nav-links {
                 display: none;
             }
@@ -1317,9 +1318,9 @@
                 <img src="https://static.wixstatic.com/media/052bd8_687e3a93d0184e08a9b0b57e0ecb7dab~mv2.png/v1/fill/w_266,h_90,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/LOGO%20AND%20NAME%20HORIZON%20GREEN.png" alt="Eden Land Company" style="height: 45px; width: auto;">
             </a>
             <ul class="nav-links">
-                <li><a href="#services">Características</a></li>
+                <li><a href="#services">Detalles</a></li>
                 <li><a href="#gallery">Galería</a></li>
-                <li><a href="#expertise">Por Qué Nosotros</a></li>
+                <li><a href="#expertise">Por Qué</a></li>
                 <li><a href="#testimonials">Reseñas</a></li>
                 <li><a href="#location">Ubicación</a></li>
                 <li><a href="#explore-properties">Propiedades</a></li>
@@ -1877,16 +1878,11 @@
                     <p class="contact-form-subtitle">Cuéntanos sobre ti y te conectaremos con los lotes disponibles.</p>
 
                     <!-- HubSpot Form Embed -->
-                    <div id="hubspot-form"></div>
-                    <script charset="utf-8" type="text/javascript" src="//js-na2.hsforms.net/forms/embed/v2.js"></script>
-                    <script>
-                        hbspt.forms.create({
-                            region: "na2",
-                            portalId: "244220839",
-                            formId: "d8bee6a8-1b4f-40d7-ad2f-f8a058261993",
-                            target: "#hubspot-form"
-                        });
-                    </script>
+                    <!-- Spanish-cloned HubSpot form (formId 8473271f-df28-4ab6-ad7b-271d4972e8c5) per AM request 2026-05-25 -->
+                    <div id="hubspot-form">
+                        <div class="hs-form-frame" data-region="na2" data-form-id="8473271f-df28-4ab6-ad7b-271d4972e8c5" data-portal-id="244220839"></div>
+                    </div>
+                    <script src="https://js-na2.hsforms.net/forms/embed/244220839.js" defer></script>
                 </div>
             </div>
         </div>
