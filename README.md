@@ -5,7 +5,10 @@ Multi-route landing page serving https://book.edenlandcompany.com.
 ## Routes
 
 - `/` — Rancho Chula Vista (10-acre tracts near Cuero, TX)
-- `/camp-swift` — Camp Swift (half-acre lots in Bastrop County)
+- `/camp-swift` — Camp Swift (half-acre lots in Bastrop County) — English
+- `/camp-swift-es` — Camp Swift — Spanish translation. Reuses
+  `/camp-swift/images/` assets and the same HubSpot form, MegaTag,
+  GTM, Meta Pixel, and CTM config as the English page.
 
 ## Stack
 

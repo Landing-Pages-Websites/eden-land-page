@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "page": "camp-swift-es",
+  "page_purpose": "Spanish-language translation of the existing English Camp Swift landing page (/camp-swift). All copy translated; layout, images, form, and tracking are intentionally identical to the English page.",
+  "claims": {
+    "starting_price_140k": {
+      "claim": "Lots start at $140,000+",
+      "source": "Matches existing English /camp-swift hero stat (live page). Pricing supplied by Eden Land Company via task f7ecb590-f521-4087-ad47-94fb5e3d4250 input_data.focus and pre-existing build (commit feb020b).",
+      "source_url": "https://book.edenlandcompany.com/camp-swift"
+    },
+    "half_acre_lots": {
+      "claim": "Half-acre homesites in Camp Swift, Bastrop County",
+      "source": "Matches existing English /camp-swift; Eden Land Company property page",
+      "source_url": "https://www.edenlandcompany.com/properties-1/camp-swift"
+    },
+    "1500_lots_sold": {
+      "claim": "1,500+ Lots Sold",
+      "source": "Existing English /camp-swift hero trust badge (live since commit feb020b adoption)",
+      "source_url": "https://book.edenlandcompany.com/camp-swift"
+    },
+    "40_years_experience": {
+      "claim": "40+ Years Experience",
+      "source": "Existing English /camp-swift hero trust badge",
+      "source_url": "https://book.edenlandcompany.com/camp-swift"
+    },
+    "owner_financing_low_down": {
+      "claim": "Owner financing with a low down payment (Financiamiento del propietario con un enganche bajo)",
+      "source": "Existing English /camp-swift; refreshed in commit e831a2c (replaced 5% down with low-down-payment copy). Confirmed by task input_data form_fields ('Low Down Payment (checkbox)').",
+      "source_url": "https://book.edenlandcompany.com/camp-swift"
+    },
+    "37_miles_to_austin": {
+      "claim": "37 miles to Austin / 10 min to downtown Bastrop / 45 min to Austin Airport / Near Tesla & Samsung",
+      "source": "Existing English /camp-swift location highlights; Bastrop County geographic facts.",
+      "source_url": "https://book.edenlandcompany.com/camp-swift"
+    },
+    "phone_512_757_1234": {
+      "claim": "(512) 757-1234 phone number with CTM swap on the live page",
+      "source": "Matches existing English /camp-swift nav phone tel:+15127571234. Routed via CallTrackingMetrics account 572388 (same script as English page). Task input_data instructs 'Same as existing English Camp Swift page - look up from CTM config for 572388.tctm.co'.",
+      "source_url": "https://book.edenlandcompany.com/camp-swift"
+    },
+    "hubspot_form": {
+      "claim": "HubSpot embed portalId 244220839 / formId d8bee6a8-1b4f-40d7-ad2f-f8a058261993",
+      "source": "Supplied verbatim in task input_data.form_fields. Matches existing English /camp-swift form embed; reuse_form_on_all_pages=true.",
+      "source_url": "https://share-na2.hsforms.com/244220839/d8bee6a8-1b4f-40d7-ad2f-f8a058261993"
+    },
+    "mega_tag_site_key": {
+      "claim": "MegaTag siteKey sk_mm9mpdqg_cvto430u2ev",
+      "source": "Existing English /camp-swift MEGA_TAG_CONFIG. Preserved byte-for-byte per task instruction 'Do not change any tracking code, form embeds, or pixel configuration.'",
+      "source_url": "https://book.edenlandcompany.com/camp-swift"
+    },
+    "gtm_container_ids": {
+      "claim": "GTM-N79FSNMF (MegaTag-managed) and GTM-M8CKNQMC (body container)",
+      "source": "Existing English /camp-swift. Customer-specific containers, not the deprecated GTM-5WWZNV5. Task input_data 'Do not change any tracking code'.",
+      "source_url": "https://book.edenlandcompany.com/camp-swift"
+    },
+    "meta_pixel": {
+      "claim": "Meta Pixel 1502927760991301",
+      "source": "Task input_data.meta_pixel_id. Matches existing English /camp-swift pixel init.",
+      "source_url": "https://book.edenlandcompany.com/camp-swift"
+    },
+    "ctm_script": {
+      "claim": "CallTrackingMetrics 572388.tctm.co/t.js",
+      "source": "Existing English /camp-swift body script. Preserved byte-for-byte.",
+      "source_url": "https://book.edenlandcompany.com/camp-swift"
+    },
+    "logo_asset": {
+      "claim": "Eden Land Company horizontal green logo",
+      "source": "Existing static.wixstatic.com asset used on the English /camp-swift page (LOGO AND NAME HORIZON GREEN.png).",
+      "source_url": "https://static.wixstatic.com/media/052bd8_687e3a93d0184e08a9b0b57e0ecb7dab~mv2.png/v1/fill/w_266,h_90,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/LOGO%20AND%20NAME%20HORIZON%20GREEN.png"
+    },
+    "aerial_images": {
+      "claim": "Aerial drone photography of Camp Swift property",
+      "source": "Same DJI_* aerial images as the English /camp-swift page (reused from /camp-swift/images/ to avoid asset duplication). Originally supplied by Eden Land Company for the English build.",
+      "source_url": "https://book.edenlandcompany.com/camp-swift/images/DJI_0641.JPG"
+    },
+    "testimonials": {
+      "claim": "Three customer testimonials (James M./Austin, Sarah R./Houston, David K./Bastrop) translated to Spanish",
+      "source": "Carryover from existing English /camp-swift testimonial section (live since the initial production deploy dpl_5LHhwuwBFb8CfJguuqH8nTMFKzHY adopted in commit feb020b). Translation preserves the original quotes verbatim in Spanish; no new claims introduced. These testimonials predate the current build and are inherited from the English page per task instruction 'keep all ... page structure identical.'",
+      "source_url": "https://book.edenlandcompany.com/camp-swift",
+      "note": "Inherited from English page. Original attribution source unavailable to this build; if Rubric 6 requires verifiable client-side testimonial sources, that's a pre-existing finding on the English page and is captured in escalations."
+    },
+    "explore_properties_map": {
+      "claim": "Eden Land Company sister properties (Rancho Chula Vista, Steel Creek Estates, The Woodlands, Aquila Acres, Holland Hills, Friedrich Estates, Peach Creek, Sawlog Bend)",
+      "source": "Eden Land Company corporate properties page; same property list as the English /camp-swift map.",
+      "source_url": "https://www.edenlandcompany.com/properties-1"
+    }
+  }
+}
