@@ -628,79 +628,52 @@
             background: var(--bg-light);
         }
 
-        .testimonials-grid {
+        #testimonials .section-header {
+            margin-bottom: 48px;
+        }
+
+        #testimonials .section-title {
+            margin-bottom: 0;
+            text-wrap: balance;
+        }
+
+        .proof-list {
+            list-style: none;
             display: grid;
             grid-template-columns: repeat(3, 1fr);
-            gap: 30px;
-        }
-
-        .testimonial-card {
+            max-width: 1000px;
+            margin: 0 auto;
             background: var(--white);
             border-radius: var(--radius-md);
-            padding: 32px;
             box-shadow: var(--shadow-sm);
-            transition: var(--transition);
+        }
+
+        .proof-item {
             display: flex;
             flex-direction: column;
-            height: 100%;
-        }
-
-        .testimonial-card:hover {
-            box-shadow: var(--shadow-md);
-            transform: translateY(-2px);
-        }
-
-        .testimonial-stars {
-            display: flex;
-            gap: 4px;
-            margin-bottom: 16px;
-        }
-
-        .testimonial-stars svg {
-            width: 20px;
-            height: 20px;
-            color: var(--accent);
-            fill: var(--accent);
-        }
-
-        .testimonial-text {
-            font-size: 1rem;
-            color: var(--text-medium);
-            line-height: 1.7;
-            margin-bottom: 20px;
-            font-style: italic;
-        }
-
-        .testimonial-author {
-            display: flex;
-            align-items: center;
-            gap: 12px;
-            padding-top: 16px;
-            border-top: 1px solid var(--border);
-            margin-top: auto;
-        }
-
-        .testimonial-avatar {
-            width: 48px;
-            height: 48px;
-            background: var(--primary);
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
             justify-content: center;
-            color: var(--white);
-            font-weight: 700;
-            font-size: 1.1rem;
-        }
-
-        .testimonial-name {
+            align-items: center;
+            padding: 32px 24px;
+            font-size: 1.2rem;
             font-weight: 600;
-            color: var(--text-dark);
+            line-height: 1.4;
+            color: var(--primary);
+            text-align: center;
+            text-wrap: balance;
         }
 
-        .testimonial-location {
-            font-size: 0.85rem;
-            color: var(--text-light);
+        .proof-item + .proof-item {
+            border-left: 1px solid var(--border);
+        }
+
+        .proof-item::before {
+            content: "";
+            display: block;
+            width: 32px;
+            height: 3px;
+            margin: 0 auto 16px;
+            background: var(--accent);
+            border-radius: 2px;
         }
 
         /* Location Section */
@@ -1009,8 +982,14 @@
                 grid-template-columns: 1fr;
             }
 
-            .testimonials-grid {
-                grid-template-columns: repeat(2, 1fr);
+            .proof-list {
+                grid-template-columns: 1fr;
+                max-width: 560px;
+            }
+
+            .proof-item + .proof-item {
+                border-left: none;
+                border-top: 1px solid var(--border);
             }
 
             .location-grid,
@@ -1065,9 +1044,13 @@
                 font-size: 2rem;
             }
 
-            .features-grid,
-            .testimonials-grid {
+            .features-grid {
                 grid-template-columns: 1fr;
+            }
+
+            .proof-item {
+                padding: 24px 16px;
+                font-size: 1.125rem;
             }
 
             .location-highlights {
@@ -1638,66 +1621,14 @@
     <section id="testimonials">
         <div class="container">
             <div class="section-header">
-                <span class="section-label">Customer Stories</span>
-                <h2 class="section-title">What Our Buyers Say</h2>
-                <p class="section-description">Real stories from real landowners who made their Texas land dreams a reality with Eden Land Company.</p>
+                <h2 class="section-title">Why Buyers Choose Eden Land Company</h2>
             </div>
 
-            <div class="testimonials-grid">
-                <div class="testimonial-card">
-                    <div class="testimonial-stars">
-                        <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-                        <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-                        <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-                        <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-                        <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-                    </div>
-                    <p class="testimonial-text">"We had been looking for land near Austin for over a year. Eden Land Company made the process so simple - from the first call to closing, everything was transparent. Our half-acre lot is exactly what we dreamed of."</p>
-                    <div class="testimonial-author">
-                        <div class="testimonial-avatar">JM</div>
-                        <div>
-                            <div class="testimonial-name">James M.</div>
-                            <div class="testimonial-location">Austin, TX</div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="testimonial-card">
-                    <div class="testimonial-stars">
-                        <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-                        <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-                        <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-                        <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-                        <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-                    </div>
-                    <p class="testimonial-text">"The owner financing option was a game-changer for us. A low down payment and no bank hassles. The team walked us through every step. Now we're planning to build our forever home."</p>
-                    <div class="testimonial-author">
-                        <div class="testimonial-avatar">SR</div>
-                        <div>
-                            <div class="testimonial-name">Sarah R.</div>
-                            <div class="testimonial-location">Houston, TX</div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="testimonial-card">
-                    <div class="testimonial-stars">
-                        <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-                        <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-                        <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-                        <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-                        <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-                    </div>
-                    <p class="testimonial-text">"I work at Tesla and wanted land close enough to commute but far enough for peace and quiet. Camp Swift was perfect - 30 minutes to work, but feels like you're miles from everything."</p>
-                    <div class="testimonial-author">
-                        <div class="testimonial-avatar">DK</div>
-                        <div>
-                            <div class="testimonial-name">David K.</div>
-                            <div class="testimonial-location">Bastrop, TX</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <ul class="proof-list" role="list">
+                <li class="proof-item">40+ Years Experience</li>
+                <li class="proof-item">1,500+ Lots Sold</li>
+                <li class="proof-item">Owner Financing with a Low Down Payment</li>
+            </ul>
         </div>
     </section>
 
