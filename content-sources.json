@@ -110,5 +110,26 @@
     "supersedes": {
       "english_testimonials": "Removed the three unverified English 5-star testimonial cards (James M., Sarah R., David K.) and the 'Customer Stories / What Our Buyers Say' header from /camp-swift. Supersedes the English source of the 'testimonials' entry above for /camp-swift only; the camp-swift-es route and its historical entry are unchanged by this task."
     }
+  },
+  "camp_swift_en_repetition_amendment": {
+    "date": "2026-11-12",
+    "page": "camp-swift",
+    "task": "https://admin.gomega.ai/tasks/0d4389b9-2e75-4652-b054-8727ff6419d6",
+    "changes": {
+      "services_owner_financing_copy": {
+        "authorization": "WEB Director comment 5b37d869-b4a5-54b9-9ffa-3151b2dbab3e",
+        "where": "section#services Owner Financing card",
+        "before": "Flexible financing with a low down payment.",
+        "after": "Flexible financing options for your land purchase.",
+        "note": "Resolves copy repetition with the exact #testimonials proof statement; no repetition waiver. Generic phrasing makes no new financing-term claim; rest of the paragraph unchanged. The camp_swift_en_proof_section owner_financing_low_down 'matches existing English /camp-swift copy' cross-reference now refers to the #expertise copy only."
+      },
+      "services_heading_nowrap": {
+        "authorization": "WEB Director comment c2a82b20-f6cf-50b3-aab4-5a81396b7124 (2026-11-12T19:34:54Z)",
+        "where": "section#services h2",
+        "before": "Build-Ready Half-Acre Lots",
+        "after": "Build-Ready <span style=\"white-space: nowrap;\">Half-Acre Lots</span>",
+        "note": "Markup only; heading text and all styles unchanged."
+      }
+    }
   }
 }
