@@ -84,5 +84,31 @@
       "source": "Eden Land Company corporate properties page; same property list as the English /camp-swift map.",
       "source_url": "https://www.edenlandcompany.com/properties-1"
     }
+  },
+  "camp_swift_en_proof_section": {
+    "page": "camp-swift",
+    "section": "section#testimonials",
+    "task": "https://admin.gomega.ai/tasks/0d4389b9-2e75-4652-b054-8727ff6419d6",
+    "heading": "Why Buyers Choose Eden Land Company",
+    "claims": {
+      "40_years_experience": {
+        "claim": "40+ Years Experience",
+        "source": "First-party Eden Land Company homepage stat '40+ Years of Experience', checked 2026-11-12; wording requested by the Atlas task.",
+        "source_url": "https://www.edenlandcompany.com/"
+      },
+      "1500_lots_sold": {
+        "claim": "1,500+ Lots Sold",
+        "source": "First-party Eden Land Company homepage stat '1,500+ Lots Sold', checked 2026-11-12.",
+        "source_url": "https://www.edenlandcompany.com/"
+      },
+      "owner_financing_low_down": {
+        "claim": "Owner Financing with a Low Down Payment",
+        "source": "Exact wording authorized by the Atlas task; matches existing English /camp-swift copy and the owner_financing_low_down entry above. Financing terms were not independently verified.",
+        "source_url": "https://admin.gomega.ai/tasks/0d4389b9-2e75-4652-b054-8727ff6419d6"
+      }
+    },
+    "supersedes": {
+      "english_testimonials": "Removed the three unverified English 5-star testimonial cards (James M., Sarah R., David K.) and the 'Customer Stories / What Our Buyers Say' header from /camp-swift. Supersedes the English source of the 'testimonials' entry above for /camp-swift only; the camp-swift-es route and its historical entry are unchanged by this task."
+    }
   }
 }
