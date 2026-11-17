@@ -131,5 +131,34 @@
         "note": "Markup only; heading text and all styles unchanged."
       }
     }
+  },
+  "camp_swift_es_proof_section": {
+    "date": "2026-11-17",
+    "page": "camp-swift-es",
+    "section": "section#testimonials",
+    "task": "https://admin.gomega.ai/tasks/62ebe605-9814-4060-9ada-bfce15448b1f",
+    "eyebrow": "Por Qué Elegirnos",
+    "heading": "Por Qué los Compradores Eligen Eden Land Company",
+    "intro": "Hemos ayudado a más de 1,500 tejanos a cumplir el sueño de ser dueños de su tierra.",
+    "claims": {
+      "40_years_experience": {
+        "claim": "40+ Años de Experiencia",
+        "source": "Exact wording authorized by the Atlas task; Spanish counterpart of camp_swift_en_proof_section 40_years_experience (first-party homepage stat).",
+        "source_url": "https://www.edenlandcompany.com/"
+      },
+      "1500_lots_sold": {
+        "claim": "1,500+ Lotes Vendidos",
+        "source": "Exact wording authorized by the Atlas task; Spanish counterpart of camp_swift_en_proof_section 1500_lots_sold (first-party homepage stat). The intro sentence restates this figure in the task's exact wording.",
+        "source_url": "https://www.edenlandcompany.com/"
+      },
+      "owner_financing_low_down": {
+        "claim": "Financiamiento del Propietario con Enganche Bajo",
+        "source": "Exact wording authorized by the Atlas task; Spanish counterpart of camp_swift_en_proof_section owner_financing_low_down. Financing terms were not independently verified.",
+        "source_url": "https://admin.gomega.ai/tasks/62ebe605-9814-4060-9ada-bfce15448b1f"
+      }
+    },
+    "supersedes": {
+      "spanish_testimonials": "Retires the three unverified Spanish 5-star testimonial cards (James M./Austin, Sarah R./Houston, David K./Bastrop) and the 'Historias de Clientes / Lo Que Dicen Nuestros Compradores' header from /camp-swift-es. Client has no testimonials on record (CCP creative.doNotUse); the historical 'testimonials' entry above is kept for provenance only and no longer describes any live route."
+    }
   }
 }
